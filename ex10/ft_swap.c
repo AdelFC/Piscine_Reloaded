@@ -1,36 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/06 08:10:07 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/06 09:36:04 by afodil-c         ###   ########.fr       */
+/*   Created: 2024/11/06 08:52:55 by afodil-c          #+#    #+#             */
+/*   Updated: 2024/11/06 09:00:15 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
-
-void	ft_putchar(char c)
+void    ft_swap(int *a, int *b)
 {
-	write(1, &c, 1);
+    int c;
+    
+    c = *a;
+    *a = *b;
+    *b = c;
 }
 
-void	ft_print_alphabet(void)
-{
-	char	alphabet;
-
-	alphabet = 97;
-	while (alphabet < 123)
-	{
-		ft_putchar(alphabet);
-		alphabet++;
-	}
-}
+// #include <stdio.h>
 
 // int	main(void)
 // {
-// 	ft_print_alphabet ();
+// 	int	M;
+// 	int	N;
+
+// 	M = 12;
+// 	N = 24;
+// 	printf("Avant swap :%d ,%d", M, N);
+// 	printf("\n");
+// 	ft_swap(&M, &N);
+// 	printf("Apres swap :%d ,%d", M, N);
 // 	return (0);
 // }

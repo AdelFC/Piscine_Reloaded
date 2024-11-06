@@ -1,36 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/06 08:10:07 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/06 09:36:04 by afodil-c         ###   ########.fr       */
+/*   Created: 2024/11/06 08:44:42 by afodil-c          #+#    #+#             */
+/*   Updated: 2024/11/06 09:35:54 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <unistd.h>
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-void	ft_print_alphabet(void)
+void	ft_print_numbers(void)
 {
-	char	alphabet;
+	char	numbers;
 
-	alphabet = 97;
-	while (alphabet < 123)
+	numbers = 48;
+	while (numbers < 58)
 	{
-		ft_putchar(alphabet);
-		alphabet++;
+		ft_putchar(numbers);
+		numbers++;
 	}
 }
 
+// #include <unistd.h>
 // int	main(void)
 // {
-// 	ft_print_alphabet ();
+// 	ft_print_numbers();
 // 	return (0);
 // }
