@@ -6,29 +6,13 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 09:31:05 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/06 09:40:22 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/06 13:44:58 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_iterative_factorial(int nb)
 {
-	int	result;
-	int	i;
-
-	i = nb - 1;
-	result = nb;
-	if (nb < 0)
-	{
-		return (0);
-	}
-	if (nb == 0)
-		return (1);
-	while (i > 0)
-	{
-		result *= i;
-		i--;
-	}
-	return (result);
+    
 }
 
 // #include <stdio.h>
