@@ -6,7 +6,26 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:13:57 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/07 13:14:01 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/07 13:21:17 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_strlen(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i])
+	{
+		i++;
+	}
+	return i;
+}
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	printf("%d\n", ft_strlen("ABCDE"));
+// 	return (0);
+// }
