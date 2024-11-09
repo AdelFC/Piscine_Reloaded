@@ -6,7 +6,7 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:43:50 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/07 13:53:08 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/09 09:52:32 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,15 +28,15 @@ void	ft_putstr(char *str)
 
 int	main(int argc, char **argv)
 {
+	int	i;
+
 	if (argc > 1)
 	{
-		int i;
-
 		i = 1;
 		while (i < argc)
 		{
 			ft_putstr(argv[i]);
-            ft_putstr("\n");
+			ft_putstr("\n");
 			i++;
 		}
 	}

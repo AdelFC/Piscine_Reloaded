@@ -6,7 +6,7 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 09:39:46 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/08 09:43:04 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/09 09:31:09 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,14 +42,14 @@ char	*ft_strdup(char *src)
 	return (tab);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(int argc, char **argv)
-{
-	if (argc == 2)
-	{
-		printf("%s\n",ft_strdup(argv[1]));
-	}
-	else
-		return (0);
-}
+// int	main(int argc, char **argv)
+// {
+// 	if (argc == 2)
+// 	{
+// 		printf("%s\n", ft_strdup(argv[1]));
+// 	}
+// 	else
+// 		return (0);
+// }

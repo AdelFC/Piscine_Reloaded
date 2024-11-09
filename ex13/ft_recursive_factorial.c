@@ -6,7 +6,7 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:50:37 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/07 11:51:02 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/09 09:47:05 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,16 @@ int	ft_recursive_factorial(int nb)
 	}
 	else
 	{
-		return (result *= ft_recursive_factorial(nb-1));
+		return (result *= ft_recursive_factorial(nb - 1));
 	}
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	printf("Pour -2, c'est : %d\n", ft_recursive_factorial(-2));
-	printf("Pour 0, c'est : %d\n", ft_recursive_factorial(0));
-	printf("Pour 2, c'est : %d\n", ft_recursive_factorial(2));
-	printf("Pour 10, c'est : %d\n", ft_recursive_factorial(10));
-}
+// int	main(void)
+// {
+// 	printf("Pour -2, c'est : %d\n", ft_recursive_factorial(-2));
+// 	printf("Pour 0, c'est : %d\n", ft_recursive_factorial(0));
+// 	printf("Pour 2, c'est : %d\n", ft_recursive_factorial(2));
+// 	printf("Pour 10, c'est : %d\n", ft_recursive_factorial(10));
+// }

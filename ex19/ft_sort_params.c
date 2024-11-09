@@ -6,7 +6,7 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 07:57:24 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/08 09:17:07 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/09 09:53:19 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ void	ft_putchar(char c)
 
 void	ft_putstr(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
+	i = 0;
 	while (str[i])
 	{
 		ft_putchar(str[i]);

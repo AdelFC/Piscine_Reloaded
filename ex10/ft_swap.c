@@ -6,17 +6,17 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 08:52:55 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/11/06 09:00:15 by afodil-c         ###   ########.fr       */
+/*   Updated: 2024/11/09 09:46:28 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int c;
-    
-    c = *a;
-    *a = *b;
-    *b = c;
+	int	c;
+
+	c = *a;
+	*a = *b;
+	*b = c;
 }
 
 // #include <stdio.h>
